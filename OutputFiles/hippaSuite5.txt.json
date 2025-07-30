@@ -1,0 +1,966 @@
+{
+    "Claim 1": {
+        "1000A": {
+            "NM1": {
+                "NM101_Entity Identifier Code": "41",
+                "NM102_Entity Type Qualifier": "2",
+                "NM103_Submitter Last or Organization Name": "rohit kalyan",
+                "NM108_Submitter Identifier": "46",
+                "NM109_Submitter Primary Identifier": "ABC123"
+            },
+            "PER": {
+                "PER01_Contact Function Code": "IC",
+                "PER02_Submitter Contact Name": "BOB SMITH",
+                "PER03_Communication Number Qualifier": "TE",
+                "PER04_Communication Number": "4805551212"
+            }
+        },
+        "1000B": {
+            "NM1": {
+                "NM101_Entity Identifier Code": "40",
+                "NM102_Entity Type Qualifier": "2",
+                "NM103_Receiver Name": "RECEIVER",
+                "NM108_Identification Code Qualifier": "46",
+                "NM109_Receiver Primary Identifier": "44556"
+            }
+        },
+        "2000A": {
+            "HL": {
+                "HL01_Hierarchical ID Number": "1",
+                "HL03_Hierarchical Level Code": "20",
+                "HL04_Hierarchical Child Code": "1"
+            }
+        },
+        "2000B": {
+            "HL": {
+                "HL01_Hierarchical ID Number": "2",
+                "HL02_Hierarchical Parent ID Number": "1",
+                "HL03_Hierarchical Level Code": "22",
+                "HL04_Hierarchical Child Code": "0"
+            },
+            "SBR": {
+                "SBR01_Payer Responsibility Sequence Number code": "P",
+                "SBR02_Individual Relationship Code": "18",
+                "SBR09_Claim Filling Indicator Code": "12"
+            }
+        },
+        "2000C": {
+            "HL": {
+                "HL01_Hierarchical ID Number": "3",
+                "HL02_Hierarchical Parent ID Number": "2",
+                "HL03_Hierarchical Level Code": "23",
+                "HL04_Hierarchical Child Code": "0"
+            },
+            "PAT": {
+                "PAT01_Individual Relationship Code": "01"
+            }
+        },
+        "2010AA": {
+            "N3": {
+                "N301_Billing Provider Address Line": "1234 SOME ROAD"
+            },
+            "N4": {
+                "N401_Billing Provider City Name": "CHICAGO",
+                "N402_Billing Provider State or Province Code": "IL",
+                "N403_Billing Provider Postal Zone or ZIP Code": "606739999"
+            },
+            "NM1": {
+                "NM101_Entity Identifier Code": "85",
+                "NM102_Entity Type Qualifier": "2",
+                "NM103_Billing Provider Last or Organizational Name": "BILLINGPROVIDER",
+                "NM108_Identification Code Qualifier": "XX",
+                "NM109_Billing Provider Identifier": "1122334455"
+            },
+            "REF_EI": {
+                "REF01_Reference Identification Qualifier": "EI",
+                "REF02_Pay-to Plan Secondary Identifier": "999999999"
+            }
+        },
+        "2010AB": {
+            "N3": {
+                "N301_Pay-To Address Line": "PO BOX 1234"
+            },
+            "N4": {
+                "N401_Pay-to Address City Name": "VANCOUVER",
+                "N402_Pay-to Address State Code": "WA",
+                "N403_Pay-to Address Postal Zone or ZIP Code": "986681234"
+            },
+            "NM1": {
+                "NM101_Entity Identifier Code": "87",
+                "NM102_Entity Type Qualifier": "2"
+            }
+        },
+        "2010AC": {
+            "N3": {
+                "N301_Pay-To Plan Address Line": "123 Main Street"
+            },
+            "N4": {
+                "N401_Pay-to Plan City Name": "KANSAS City",
+                "N402_Pay-to Plan State or Province Code": "MO",
+                "N404_Country Code": "64108"
+            },
+            "NM1": {
+                "NM101_Entity Identifier Code": "PE",
+                "NM102_Entity Type Qualifier": "2",
+                "NM103_Pay-to Plan Organizational Name": "ANY State medicaid",
+                "NM108_Identification Code Qualifier": "PI",
+                "NM109_Pay-To Plan Primary Identifier": "12345"
+            },
+            "REF_2U": {
+                "REF01_Payer Identification Number Qualifier": "2U",
+                "REF02_Payer Identification Number": "98765"
+            },
+            "REF_EI": {
+                "REF01_Reference Identification Qualifier": "EI",
+                "REF02_Pay-to Plan Secondary Identifier": "123456789"
+            }
+        },
+        "2010BA": {
+            "DMG": {
+                "DMG01_Date Time Period Format Qualifier": "D8",
+                "DMG02_Subscriber Birth Date": "19570111",
+                "DMG03_Subscriber Gender Code": "M"
+            },
+            "N3": {
+                "N301_Subscriber Address Line": "1",
+                "N302_Subscriber Address Line": "SOME BLVD"
+            },
+            "N4": {
+                "N401_Subscriber City Name": "CHICAGO",
+                "N402_Subscriber State Code": "IL",
+                "N403_Subscriber Postal Zone or ZIP Code": "606129998"
+            },
+            "NM1": {
+                "NM101_Entity Identifier Code": "IL",
+                "NM102_Entity Type Qualifier": "1",
+                "NM103_Subscriber Last Name": "BLOGGS",
+                "NM104_Subscriber First  Name": "JOE",
+                "NM108_Identification Code Qualifier": "MI",
+                "NM109_Subscriber Primary Identifier": "1234567890"
+            },
+            "REF_SY": {
+                "REF01_Reference Identification Qualifier": "SY",
+                "REF02_Subscriver Supplemental Identifier": "123456789"
+            },
+            "REF_Y4": {
+                "REF01_Reference Identification Qualifier": "Y4",
+                "REF02_Property Casualty Claim Number": "4445555"
+            }
+        },
+        "2010BB": {
+            "N3": {
+                "N301_Payer Address Line": "1 PAYER WAY"
+            },
+            "N4": {
+                "N401_Payer City Name": "ST LOUIS",
+                "N402_Payer State or Province Code": "MO",
+                "N403_Payer Postal Zone or ZIP Code": "212441850"
+            },
+            "NM1": {
+                "NM101_Entity Identifier code": "PR",
+                "NM102_Entity Type Qualifier": "2",
+                "NM103_Payer Name": "PAYER",
+                "NM108_Identification Code Qualifier": "PI",
+                "NM109_Payer Identifier": "12345"
+            },
+            "REF_2U": {
+                "REF01_Payer Identification Number Qualifier": "2U",
+                "REF02_Payer Identification Number": "W1014"
+            }
+        },
+        "2010CA": {
+            "DMG": {
+                "DMG01_Date Time Period Format Qualifier": "D8",
+                "DMG02_Patient Birth Date": "19570111",
+                "DMG03_Patient Gender Code": "M"
+            },
+            "N3": {
+                "N301_Patient Address Line": "1 PAYER WAY"
+            },
+            "N4": {
+                "N401_Patient City Name": "ST LOUIS",
+                "N402_Patient State Code": "MO",
+                "N403_Patient Postal Zone or ZIP Code": "212441850"
+            },
+            "NM1": {
+                "NM101_Entity Identifier Code": "QC",
+                "NM102_Entity Type Qualifier": "1",
+                "NM103_Patient Last Name": "DOE",
+                "NM104_Patient First Name": "SALLY",
+                "NM105_Patient Middle Name or Initial": "J"
+            },
+            "PER": {
+                "PER01_Contact Function Code": "ic",
+                "PER02_Name": "JOHN SMITH",
+                "PER04_Communication Number": "TE",
+                "PER05_Communication Number Qualifier": "5555555",
+                "PER06_Communication Number": "EX",
+                "PER07_2010CA": "123"
+            },
+            "REF_SY": {
+                "REF01_Reference Identification Qualifier": "SY",
+                "REF02_Property Casualty Claim Number": "123456789"
+            },
+            "REF_Y4": {
+                "REF01_Reference Identification Qualifier": "Y4",
+                "REF02_Billing Provider Secondary Identifier": "4445555"
+            }
+        },
+        "2300": {
+            "AMT_F5": {
+                "AMT01_Amount Qualifier Code": "F5",
+                "AMT02_Patient Amount Paid": "152.45"
+            },
+            "CLM": {
+                "CLM01_Patient Control Number": "1000A",
+                "CLM02_Total Claim Charge Amount": "140",
+                "CLM05_Health Care Service Location Information": "19:B:1",
+                "CLM06_Provider or Supplier Signature Indicator": "Y",
+                "CLM07_Assignment or Plan Participation Code": "A",
+                "CLM08_Benefits Assignment Certification Indicator": "Y",
+                "CLM09_Release of Information Code": "Y"
+            },
+            "CN1": {
+                "CN101_Contract Type Code": "02",
+                "CN102_Contract Amount": "550"
+            },
+            "CR1": {
+                "CR01_Unit or Basis for Measurement Code": "LB",
+                "CR02_Patient Weight": "140",
+                "CR04_Ambulance Transport Reason Code": "A",
+                "CR05_Unit or Basis for Measurement Code": "DH",
+                "CR06_Transport Distance": "12",
+                "CR10_Stretcher Purpose Description": "UNCONSCIOUS"
+            },
+            "CR2": {
+                "CR209_2300": "M"
+            },
+            "CRC_07": {
+                "CRC01_Code Category": "07",
+                "CRC02_Certification Condition Indicator": "Y",
+                "CRC03_Condition Code": "01"
+            },
+            "CRC_75": {
+                "CRC01_Code Category": "75",
+                "CRC02_Certification Condition Indicator": "Y",
+                "CRC03_Homebound Indicator": "IH"
+            },
+            "CRC_E1": {
+                "CRC01_Code Category": "E1",
+                "CRC02_Certification Condition Indicator": "Y",
+                "CRC03_Condition Code": "L1"
+            },
+            "CRC_ZZ": {
+                "CRC01_Code Qualifier": "ZZ",
+                "CRC02_Certification Condition Code Applies Indicator": "Y",
+                "CRC03_Condition Indicator": "ST"
+            },
+            "DTP_050": {
+                "DTP01_Date Time Qualifier": "050",
+                "DTP02_Date Time Period Format Qualifier": "d8",
+                "DTP03_Repricer Received Date": "20050108"
+            },
+            "DTP_090": {
+                "DTP01_Date Time Qualifier": "090",
+                "DTP02_Date Time Period Format Qualifier": "d8",
+                "DTP03_Assumed or Relinquished Care Date": "20050108"
+            },
+            "DTP_096": {
+                "DTP01_Date Time Qualifier": "096",
+                "DTP02_Date Time Period Format Qualifier": "d8",
+                "DTP03_Related Hospitalization Discharge Date": "20050108"
+            },
+            "DTP_296": {
+                "DTP01_Date Time Qualifier": "296",
+                "DTP02_Date Time Period Format Qualifier": "d8",
+                "DTP03_Work Return Date": "20050108"
+            },
+            "DTP_297": {
+                "DTP01_Date Time Qualifier": "297",
+                "DTP02_Date Time Period Format Qualifier": "d8",
+                "DTP03_Last Worked Date": "20050108"
+            },
+            "DTP_304": {
+                "DTP01_Date Time Qualifier": "304",
+                "DTP02_Date Time Period Format Qualifier": "d8",
+                "DTP03_Last Seen Date": "20050108"
+            },
+            "DTP_360": {
+                "DTP01_Date Time Qualifier": "360",
+                "DTP02_Date Time Period Format Qualifier": "d8",
+                "DTP03_Disability From Date": "20050108"
+            },
+            "DTP_431": {
+                "DTP01_Date/Time Qualifier": "431",
+                "DTP02_Onset of Current Symptoms or Illness": "d8",
+                "DTP03_Onset of Current Symptoms or Injury Date": "20050108"
+            },
+            "DTP_435": {
+                "DTP01_Date Time Qualifier": "435",
+                "DTP02_Date Time Period Format Qualifier": "d8",
+                "DTP03_Related Hospitalization Admission Date": "20050108"
+            },
+            "DTP_439": {
+                "DTP01_Date Time Qualifier": "439",
+                "DTP02_Date Time Period Format Qualifier": "d8",
+                "DTP03_Accident Date": "20050108"
+            },
+            "DTP_444": {
+                "DTP01_Date Time Qualifier": "444",
+                "DTP02_Date Time Period Format Qualifier": "d8",
+                "DTP03_Date Time Period": "20050108"
+            },
+            "DTP_453": {
+                "DTP01_Date Time Qualifier": "453",
+                "DTP02_Date Time Period Format Qualifier": "d8",
+                "DTP03_Acute Manifestation Date": "20050108"
+            },
+            "DTP_454": {
+                "DTP01_Date/Time Qualifier": "454",
+                "DTP02_Date Time Period Format Qualifier": "d8",
+                "DTP03_Initial Treatment Date": "20050108"
+            },
+            "DTP_455": {
+                "DTP01_Date Time Qualifier": "455",
+                "DTP02_Date Time Period Format Qualifier": "d8",
+                "DTP03_Last X-Ray Date": "20050108"
+            },
+            "DTP_471": {
+                "DTP01_Date Time Qualifier": "471",
+                "DTP02_Date Time Period Format Qualifier": "d8",
+                "DTP03_Prescription Date": "20050108"
+            },
+            "DTP_484": {
+                "DTP01_Date Time Qualifier": "484",
+                "DTP02_Date Time Period Format Qualifier": "d8",
+                "DTP03_Last Menstrual Period": "20050108"
+            },
+            "HCP": {
+                "HCP01_Pricing Methodology": "03",
+                "HCP02_Repriced Allowed Amount": "100",
+                "HCP03_Repriced Saving Amount": "10",
+                "HCP04_Repricing Organization Identifier": "RPO123456"
+            },
+            "HI_BG": {
+                "HI01_Health Care Code Information": "BG:17",
+                "HI02_Health Care Code Information": "BG:67"
+            },
+            "HI_BK": {
+                "HI01_Health Care Code Information": "BK:8910",
+                "HI02_Health Care Code Information": "BF:7879000",
+                "HI03_Health Care Code Information": "BF:I10"
+            },
+            "HI_BP": {
+                "HI01_Health Care Code Information": "BP:I10"
+            },
+            "K3": {
+                "K301_Fixed Format Information": "STATE DATA REQUIRMENT"
+            },
+            "NTE": {
+                "NTE01_Note Reference Code": "ADD",
+                "NTE02_Claim Note Text": "SURGERY WAS UNUSUALLY LONG BECAUSE [FILL IN REASON]"
+            },
+            "PWK": {
+                "PWK01_Attatchment Report Type Code": "OZ",
+                "PWK02_Attatchment Transmission Code": "BM",
+                "PWK05_Identification Code Qualifier": "AC",
+                "PWK06_Attatchment Control Number": "DMN0012"
+            },
+            "REF_1J": {
+                "REF01_Reference Identification Qualifier": "1J",
+                "REF02_Care Plan Oversight Number": "12D34567"
+            },
+            "REF_4N": {
+                "REF01_Reference Identification Qualifier": "4N",
+                "REF02_Service Authorization Exception Code": "1"
+            },
+            "REF_9A": {
+                "REF01_Reference Identification Qualifier": "9A",
+                "REF02_Repriced Claim Reference Number": "12D34567"
+            },
+            "REF_9C": {
+                "REF01_Reference Identification Qualifier": "9C",
+                "REF02_Repriced Claim Reference Number": "12D34567"
+            },
+            "REF_9F": {
+                "REF01_Reference Identification Qualifier": "9F",
+                "REF02_Referral Number": "1234"
+            },
+            "REF_D9": {
+                "REF01_Reference Identification Qualifier": "D9",
+                "REF02_Value Added Network Trace Number": "12D34567"
+            },
+            "REF_EA": {
+                "REF01_Reference Identification Qualifier": "EA",
+                "REF02_Medical Record Number": "12D34567"
+            },
+            "REF_EW": {
+                "REF01_Reference Identification Qualifier": "EW",
+                "REF02_Mammography Certification Number": "T554"
+            },
+            "REF_F5": {
+                "REF01_Reference Identification Qualifier": "F5",
+                "REF02_Medicare Section 4081 Indicator": "N"
+            },
+            "REF_F8": {
+                "REF01_Reference Identification Qualifier": "F8",
+                "REF02_Payer Claim Control Number": "13579"
+            },
+            "REF_G1": {
+                "REF01_Reference Identification Qualifier": "G1",
+                "REF02_Prior Authorization Number": "13579"
+            },
+            "REF_LX": {
+                "REF01_Reference Identification Qualifier": "LX",
+                "REF02_Investigational Device Exemption Identifier": "12D34567"
+            },
+            "REF_P4": {
+                "REF01_Reference Identification Qualifier": "P4",
+                "REF02_Demonstration Project Identifier": "12D34567"
+            },
+            "REF_X4": {
+                "REF01_Reference Identification Qualifier": "X4",
+                "REF02_Clinical Laboratory Improvement Amendment Number": "12D34567"
+            }
+        },
+        "2310B": {
+            "NM1": {
+                "NM101_Entity Identifier Code": "82",
+                "NM102_Entity Type Qualifier": "1",
+                "NM103_Rendering Provider Last or Organization Name": "DOE",
+                "NM104_Rendering Provider First Name": "JANE",
+                "NM105_Rendering Provider Middle Name or Initial": "C",
+                "NM108_Rendering Provider Identifier": "XX",
+                "NM109_Identification Code": "1234568"
+            },
+            "PRV": {
+                "PRV01_Provider Code": "PE",
+                "PRV02_Reference Identification Qualifier": "PXC",
+                "PRV03_Provider Taxonomy Code": "12345G001X"
+            },
+            "REF_G2": {
+                "REF01_Reference Identification Qualifier": "G2",
+                "REF02_Rendering Provider Secondary Identifier": "12344"
+            }
+        },
+        "2310B_1": {
+            "NM1": {
+                "NM101_Entity Identifier Code": "82",
+                "NM102_Entity Type Qualifier": "1",
+                "NM103_Rendering Provider Last or Organization Name": "DOE",
+                "NM104_Rendering Provider First Name": "JANE",
+                "NM105_Rendering Provider Middle Name or Initial": "C",
+                "NM108_Rendering Provider Identifier": "XX",
+                "NM109_Identification Code": "1234568"
+            },
+            "PRV": {
+                "PRV01_Provider Code": "PE",
+                "PRV02_Reference Identification Qualifier": "PXC",
+                "PRV03_Provider Taxonomy Code": "12345G001X"
+            },
+            "REF_G2": {
+                "REF01_Reference Identification Qualifier": "G2",
+                "REF02_Rendering Provider Secondary Identifier": "12344"
+            }
+        },
+        "2310C": {
+            "N3": {
+                "N301_Laboratory or Facility Address Line": "123 MAIN STREET"
+            },
+            "N4": {
+                "N401_Laboratory or Facility City Name": "KANSAS CITY",
+                "N402_Laboratory or Facility State or Province Code": "MO",
+                "N403_Laboratory or Facility Postal Zone or ZIP Code": "64108"
+            },
+            "NM1": {
+                "NM101_Entity Identifier Code": "77",
+                "NM102_Entity Type Qualifier": "2",
+                "NM103_Laboratory or Facility Name": "ABC CLINC",
+                "NM108_Identification Code Qualifier": "XX",
+                "NM109_Laboratory or Facility Primary Identifier": "122445667"
+            },
+            "PER": {
+                "PER01_Contact Function Code": "IC",
+                "PER02_Name": "JOHN SMITH",
+                "PER03_Communication Number Qualifier": "TE",
+                "PER04_Communication Number": "345676543",
+                "PER05_Communication Number Qualifier": "EX",
+                "PER06_Communication Number": "123"
+            },
+            "REF_G2": {
+                "REF01_Reference Identification Qualifier": "G2",
+                "REF02_Laboratory or Facility Secondary Identifier": "12344"
+            }
+        },
+        "2310C_1": {
+            "N3": {
+                "N301_Laboratory or Facility Address Line": "123 MAIN STREET"
+            },
+            "N4": {
+                "N401_Laboratory or Facility City Name": "KANSAS CITY",
+                "N402_Laboratory or Facility State or Province Code": "MO",
+                "N403_Laboratory or Facility Postal Zone or ZIP Code": "64108"
+            },
+            "NM1": {
+                "NM101_Entity Identifier Code": "77",
+                "NM102_Entity Type Qualifier": "2",
+                "NM103_Laboratory or Facility Name": "ABC CLINC",
+                "NM108_Identification Code Qualifier": "XX",
+                "NM109_Laboratory or Facility Primary Identifier": "122445667"
+            },
+            "PER": {
+                "PER01_Contact Function Code": "IC",
+                "PER02_Name": "JOHN SMITH",
+                "PER03_Communication Number Qualifier": "TE",
+                "PER04_Communication Number": "345676543",
+                "PER05_Communication Number Qualifier": "EX",
+                "PER06_Communication Number": "123"
+            },
+            "REF_G2": {
+                "REF01_Reference Identification Qualifier": "G2",
+                "REF02_Laboratory or Facility Secondary Identifier": "12344"
+            }
+        },
+        "2310E": {
+            "N3": {
+                "N301_Ambulance Pick-up Address Line": "123 MAIN STREET"
+            },
+            "N4": {
+                "N401_Ambulance Pick-up City Name": "KANSAS CITY",
+                "N402_Ambulance Pick-up State or Province Code": "MO",
+                "N403_Ambulance Pick-up Postal Zone or ZIP Code": "64108"
+            },
+            "NM1": {
+                "NM101_Entity Identifier Code": "PW",
+                "NM102_Entity Type Qualifier": "2"
+            }
+        },
+        "2310E_1": {
+            "N3": {
+                "N301_Ambulance Pick-up Address Line": "123 MAIN STREET"
+            },
+            "N4": {
+                "N401_Ambulance Pick-up City Name": "KANSAS CITY",
+                "N402_Ambulance Pick-up State or Province Code": "MO",
+                "N403_Ambulance Pick-up Postal Zone or ZIP Code": "64108"
+            },
+            "NM1": {
+                "NM101_Entity Identifier Code": "PW",
+                "NM102_Entity Type Qualifier": "2"
+            }
+        },
+        "2320": {
+            "AMT_A8": {
+                "AMT01_Amount Qualifier Code": "A8",
+                "AMT02_Non-Covered Charge Amount": "273"
+            },
+            "AMT_D": {
+                "AMT01_Amount Qualifier Code": "D",
+                "AMT02_Payer Paid Amount": "411"
+            },
+            "AMT_EAF": {
+                "AMT01_Amount Qualifier Code": "EAF",
+                "AMT02_Remaining Patient Liability": "75"
+            },
+            "CAS": {
+                "CAS01_Claim Adjustment Group Code": "OA",
+                "CAS02_Adjustment Reason Code": "93",
+                "CAS03_Adjustment Amount": "194.09"
+            },
+            "MOA": {
+                "MOA03_Claim Payment Remark Code": "A4"
+            },
+            "OI": {
+                "OI03_Benefits Assignment Certification Indicator": "Y",
+                "OI04_Patient Signature Source Code": "B",
+                "OI06_Release of Information Code": "Y"
+            },
+            "SBR": {
+                "SBR01_Payer Responsibility Sequence Number code": "S",
+                "SBR02_Individual Relationship Code": "01",
+                "SBR03_Insured Group or Policy Number": "GR000786",
+                "SBR09_Claim Filling Indicator Code": "13"
+            }
+        },
+        "2320_1": {
+            "AMT_A8": {
+                "AMT01_Amount Qualifier Code": "A8",
+                "AMT02_Non-Covered Charge Amount": "273"
+            },
+            "AMT_D": {
+                "AMT01_Amount Qualifier Code": "D",
+                "AMT02_Payer Paid Amount": "411"
+            },
+            "AMT_EAF": {
+                "AMT01_Amount Qualifier Code": "EAF",
+                "AMT02_Remaining Patient Liability": "75"
+            },
+            "CAS": {
+                "CAS01_Claim Adjustment Group Code": "OA",
+                "CAS02_Adjustment Reason Code": "93",
+                "CAS03_Adjustment Amount": "194.09"
+            },
+            "MOA": {
+                "MOA03_Claim Payment Remark Code": "A4"
+            },
+            "OI": {
+                "OI03_Benefits Assignment Certification Indicator": "Y",
+                "OI04_Patient Signature Source Code": "B",
+                "OI06_Release of Information Code": "Y"
+            },
+            "SBR": {
+                "SBR01_Payer Responsibility Sequence Number code": "S",
+                "SBR02_Individual Relationship Code": "01",
+                "SBR03_Insured Group or Policy Number": "GR000786",
+                "SBR09_Claim Filling Indicator Code": "13"
+            }
+        },
+        "2330C": {
+            "NM1": {
+                "NM101_Entity Identifier": "DN",
+                "NM102_Entity Type Qualifier": "1",
+                "NM103_2330C": "WELBY",
+                "NM104_2330C": "MARCUS",
+                "NM105_2330C": "W",
+                "NM107_2330C": "JR",
+                "NM108_2330C": "XX",
+                "NM109_2330C": "12345677"
+            },
+            "REF_G2": {
+                "REF01_Reference Identification Qualifier": "G2",
+                "REF02_Other Payer Referring Provider Identifier": "12344"
+            }
+        },
+        "2330C_1": {
+            "NM1": {
+                "NM101_Entity Identifier": "DN",
+                "NM102_Entity Type Qualifier": "1",
+                "NM103_2330C": "WELBY",
+                "NM104_2330C": "MARCUS",
+                "NM105_2330C": "W",
+                "NM107_2330C": "JR",
+                "NM108_2330C": "XX",
+                "NM109_2330C": "123456778"
+            },
+            "REF_G2": {
+                "REF01_Reference Identification Qualifier": "G2",
+                "REF02_Other Payer Referring Provider Identifier": "12344"
+            }
+        },
+        "2400": {
+            "AMT_F4": {
+                "AMT01_Amount Qualifier Code": "F4",
+                "AMT02_Postage Claimed Amount": "52.34"
+            },
+            "AMT_T": {
+                "AMT01_Amount Qualifier Code": "T",
+                "AMT02_Sales Tax Amount": "500"
+            },
+            "CN1": {
+                "CN101_Contract Type Code": "03",
+                "CN102_Contract Amount": "200"
+            },
+            "CR1": {
+                "CR01_Unit or Basis for Measurement Code": "LB",
+                "CR02_Patient Weight": "140",
+                "CR04_Ambulance Transport Reason Code": "A",
+                "CR05_Unit or Basis for Measurement Code": "DH",
+                "CR06_Transport Distance": "12",
+                "CR10_Stretcher Purpose Description": "UNCONSCIOUS"
+            },
+            "CR3": {
+                "CR301_Certification Type Code": "I",
+                "CR302_Unit or Basis for Measurement Code": "MO",
+                "CR303_Durable Medical Equipment Duration": "6"
+            },
+            "CRC_07": {
+                "CRC01_Code Category": "07",
+                "CRC02_Certification Condition Indicator": "Y",
+                "CRC03_Condition Indicator": "01"
+            },
+            "CRC_09": {
+                "CRC01_Code Category": "09",
+                "CRC02_Certification Condition Indicator": "N",
+                "CRC03_Condition Indicator": "ZV"
+            },
+            "CRC_70": {
+                "CRC01_Code Category": "70",
+                "CRC02_Hospice Employed Provider Indicator": "Y",
+                "CRC03_Condition Indicator": "65"
+            },
+            "DTP_001": {
+                "DTP01_Date Time Qualifier": "001",
+                "DTP02_Date Time Period Format Qualifier": "D8",
+                "DTP03_Service Date": "20151124"
+            },
+            "DTP_304": {
+                "DTP01_Date Time Qualifier": "304",
+                "DTP02_Date Time Period Format Qualifier": "D8",
+                "DTP03_Treatment or Therapy Date": "20151124"
+            },
+            "DTP_454": {
+                "DTP01_Date Time Qualifier": "454",
+                "DTP02_Date Time Period Format Qualifier": "D8",
+                "DTP03_Initial Treatment Date": "20151124"
+            },
+            "DTP_455": {
+                "DTP01_Date Time Qualifier": "455",
+                "DTP02_Date Time Period Format Qualifier": "D8",
+                "DTP03_Last X-Ray Date": "20151124"
+            },
+            "DTP_461": {
+                "DTP01_Date Time Qualifier": "461",
+                "DTP02_Date Time Period Format Qualifier": "D8",
+                "DTP03_Last Certification Date": "20151124"
+            },
+            "DTP_463": {
+                "DTP01_Date Time Qualifier": "463",
+                "DTP02_Date Time Period Format Qualifier": "D8",
+                "DTP03_Begin Therapy Date": "20151124"
+            },
+            "DTP_471": {
+                "DTP01_Date Time Qualifier": "471",
+                "DTP02_Date Time Period Format Qualifier": "D8",
+                "DTP03_Prescription Date": "20151124"
+            },
+            "DTP_472": {
+                "DTP01_Date Time Qualifier": "472",
+                "DTP02_Date Time Period Format Qualifier": "RD8",
+                "DTP03_Service Date": "20151124-20151130"
+            },
+            "DTP_607": {
+                "DTP01_Date Time Qualifier": "607",
+                "DTP02_Date Time Period Format Qualifier": "D8",
+                "DTP03_Certification Revision or Recertification Date": "20151124"
+            },
+            "DTP_738": {
+                "DTP01_Date Time Qualifier": "738",
+                "DTP02_Date Time Period Format Qualifier": "D8",
+                "DTP03_Test Performed Date": "20151124"
+            },
+            "HCP": {
+                "HCP01_Pricing Methodology": "03",
+                "HCP02_Repriced Allowed Amount": "100",
+                "HCP03_Repriced Saving Amount": "10",
+                "HCP04_Repricing Organization Identifier": "RPO123456"
+            },
+            "K3": {
+                "K301_Fixed Format Information": "STATE DATA REQUIRMENT"
+            },
+            "LX": {
+                "LX01_Assigned Number": "1 "
+            },
+            "MEA": {
+                "MEA01_Measurement Reference Identification Code": "TR",
+                "MEA02_Measurement Qualifier": "R1",
+                "MEA03_Test Results": "113.4"
+            },
+            "NTE": {
+                "NTE01_Note Reference Code": "TPO",
+                "NTE02_Line Note Text": "STATE REGULATION 123 APPLIED DURING THE PRICING OF THIS CLAIM"
+            },
+            "PS1": {
+                "PS101_Purchased Service Provider Identifier": "PN9999999",
+                "PS102_Purchased Service Charge Amount": "1500 "
+            },
+            "PWK": {
+                "PWK01_Attatchment Report Type Code": "OZ",
+                "PWK02_Attatchment Transmission Code": "BM",
+                "PWK05_Identification Code Qualifier": "AC",
+                "PWK06_Attatchment Control Number": "DMN0012"
+            },
+            "QTY_FL": {
+                "QTY01_Quantity Qualifier": "FL",
+                "QTY02_Obstetric Additional Units": "2"
+            },
+            "QTY_PT": {
+                "QTY01_Quantity Qualifier": "PT",
+                "QTY02_Ambulance Patient Count": "2"
+            },
+            "REF_6R": {
+                "REF01_Reference Identification Qualifier": "6R",
+                "REF02_Line Item Control Number": "54324"
+            },
+            "REF_9B": {
+                "REF01_Reference Identification Qualifier": "9B",
+                "REF02_Repriced Line Item Reference Number": "4444"
+            },
+            "REF_9D": {
+                "REF01_Reference Identification Qualifier": "9D",
+                "REF02_Adjusted Repriced Line Item Reference Number": "4444"
+            },
+            "REF_9F": {
+                "REF01_Reference Identification Qualifier": "9F",
+                "REF02_Referral Number": "12345"
+            },
+            "REF_BT": {
+                "REF01_Reference Identification Qualifier": "BT",
+                "REF02_Immunization Batch Number": "DTP233454"
+            },
+            "REF_EW": {
+                "REF01_Reference Identification Qualifier": "EW",
+                "REF02_Mammography Certification Number": "T554"
+            },
+            "REF_F4": {
+                "REF01_Reference Identification Qualifier": "F4",
+                "REF02_Referring CLIA Number": "34D13456"
+            },
+            "REF_G1": {
+                "REF01_Reference Identification Qualifier": "G1",
+                "REF02_Prior Authorization or Referral Number": "13579"
+            },
+            "REF_X4": {
+                "REF01_Reference Identification Qualifier": "X4",
+                "REF02_Clinical Laboratory Improvement Amendment Number": "12D34567"
+            },
+            "SV1": {
+                "SV101_Composite Medical Procedure Identifier": "HC:99213",
+                "SV102_Line Item Charge Amount": "140",
+                "SV103_Unit or Basis for Measurement Code": "UN",
+                "SV104_Service Unit Count": "1",
+                "SV107_Composite Diagnosis Code Pointer": "1 "
+            },
+            "SV5": {
+                "SV501_Composite Medical Procedure Identifier": "HC:A4631",
+                "SV502_Unit or Basis for Measurement Code": "DA",
+                "SV503_Length of Medical Necessity": "30",
+                "SV504_DME Rental Price": "50",
+                "SV505_DME Purchase Price": "5000",
+                "SV506_Rental Unit Price Indicator": "4"
+            }
+        },
+        "2420B": {
+            "NM1": {
+                "NM101_Entity Identifier Code": "QB",
+                "NM102_Entity Type Qualifier": "2",
+                "NM108_Identification Code Qualifier": "XX",
+                "NM109_Purchased Service Provider Identifier": "1234567"
+            },
+            "REF_G2": {
+                "REF01_Reference Identification Qualifier": "G2",
+                "REF02_Purchased Service Provider Secondary Identifier": "1234"
+            }
+        },
+        "2420D": {
+            "NM1": {
+                "NM101_Entity Identifier Code": "DQ",
+                "NM102_Entity Type Qualifier": "1",
+                "NM103_Supervising Provider Last Name": "DOE",
+                "NM104_Supervising Provider First Name": "JOHN",
+                "NM105_Supervising Provider Middle Name or Initial": "B",
+                "NM108_Identification Code Qualifier": "XX",
+                "NM109_Supervising Provider Identifier": "12345567"
+            },
+            "REF_G2": {
+                "REF01_Reference Identification Qualifier": "G2",
+                "REF02_Supervising Provider Secondary Identifier": "12344"
+            }
+        },
+        "2420D_1": {
+            "NM1": {
+                "NM101_Entity Identifier Code": "DQ",
+                "NM102_Entity Type Qualifier": "1",
+                "NM103_Supervising Provider Last Name": "DOE",
+                "NM104_Supervising Provider First Name": "JOHN",
+                "NM105_Supervising Provider Middle Name or Initial": "B",
+                "NM108_Identification Code Qualifier": "XX",
+                "NM109_Supervising Provider Identifier": "12345567"
+            },
+            "REF_G2": {
+                "REF01_Reference Identification Qualifier": "G2",
+                "REF02_Supervising Provider Secondary Identifier": "12344"
+            }
+        },
+        "2420E": {
+            "N3": {
+                "N301_Ordering Provider Address Line": "123 MAIN STREET"
+            },
+            "N4": {
+                "N401_Ordering Provider City Name": "KANSAS CITY",
+                "N402_Ordering Provider State or Province Code": "MO",
+                "N403_Ordering Provider Postal Zone or ZIP Code": "64108"
+            },
+            "NM1": {
+                "NM101_Entity Identifier Code": "DK",
+                "NM102_Entity Type Qualifier": "1",
+                "NM103_Ordering Provider Last Name": "RICHARDSON",
+                "NM104_Ordering Provider First Name": "TRENT",
+                "NM108_Identification Code Qualifier": "XX",
+                "NM109_Ordering Provider Identifier": "122345678"
+            },
+            "REF_G2": {
+                "REF01_Reference Identification Qualifier": "G2",
+                "REF02_Ordering Provider Secondary Identifier": "12344"
+            }
+        },
+        "2420H": {
+            "N3": {
+                "N301_Ambulance Drop-off Address Line": "123 MAIN STREET "
+            },
+            "N4": {
+                "N401_Ambulance Drop-off City Name": "KANSAS CITY",
+                "N402_Ambulance Drop-off State or Province Code": "MO",
+                "N403_Ambulance Drop-off Postal Zone or ZIP Code": "64108"
+            },
+            "NM1": {
+                "NM101_Entity Identifier Code": "45",
+                "NM102_Entity Type Qualifier": "2"
+            }
+        },
+        "Header": {
+            "BHT": {
+                "BHT01_Hierarchical Structure Code": "0019",
+                "BHT02_Information Source, Subscriber, Dependent": "00",
+                "BHT03_Reference Identification": "010",
+                "BHT04_Date": "20170617",
+                "BHT05_Time": "1741",
+                "BHT06_Transaction Type Code": "CH"
+            },
+            "GS": {
+                "GS01_Functional Identifier Code": "HC",
+                "GS02_Application Sender's Code": "XXXXXXX",
+                "GS03_Application Receiver's Code": "XXXXX",
+                "GS04_Date": "20170617",
+                "GS05_Time": "1741",
+                "GS06_Group Control Number": "101",
+                "GS07_Responsible Agency Code": "X",
+                "GS08_Version/Release Industry ID Code": "005010X222A1"
+            },
+            "ISA": {
+                "ISA01_Authorization Information Qualifier": "00",
+                "ISA03_Security Information Qualifier": "00",
+                "ISA05_Interchange ID Qualifier": "ZZ",
+                "ISA06_Interchange Sender ID": "1234567        ",
+                "ISA07_Interchange ID Qualifier": "ZZ",
+                "ISA08_Interchange Receiver ID": "11111          ",
+                "ISA09_Interchange Date": "170508",
+                "ISA10_Interchange Time": "1141",
+                "ISA11_Interchange Control Standards Identifier": "^",
+                "ISA12_Interchange Control Version Number": "00501",
+                "ISA13_Interchange Control Number": "000000101",
+                "ISA14_Acknowledgement Requested": "1",
+                "ISA15_Usage Indicator": "P",
+                "ISA16_Component Element Separator": ":"
+            },
+            "ST": {
+                "ST01_Transaction Set Identifier Code": "837",
+                "ST02_Transaction Set Control Number": "1239",
+                "ST03_Implementation Convention Reference": "005010X222A1"
+            }
+        },
+        "Trailer": {
+            "GE": {
+                "GE01_Number of Transaction Sets Included": "1",
+                "GE02_Group Control Number": "1"
+            },
+            "IEA": {
+                "IEA01_Number of Included Functional Groups": "1",
+                "IEA02_Interchange Control Number": "000000905"
+            },
+            "SE": {
+                "SE01_Transaction Set Control Number": "42",
+                "SE02_Transaction Set Control Number": "0021"
+            }
+        }
+    }
+}

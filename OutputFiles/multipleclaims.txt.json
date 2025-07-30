@@ -1,0 +1,1030 @@
+{
+    "Claim 1": {
+        "1000A": {
+            "NM1": {
+                "NM101_Entity Identifier Code": "41",
+                "NM102_Entity Type Qualifier": "2",
+                "NM103_Submitter Last or Organization Name": "CLEARINGHOUSE LLC",
+                "NM108_Submitter Identifier": "46",
+                "NM109_Submitter Primary Identifier": "987654321"
+            },
+            "PER": {
+                "PER01_Contact Function Code": "IC",
+                "PER02_Submitter Contact Name": "CLEARINGHOUSE CLIENT SERVICES",
+                "PER03_Communication Number Qualifier": "TE",
+                "PER04_Communication Number": "8005551212",
+                "PER05_Communication Number Qualifier": "FX",
+                "PER06_Communication Number": "8005551212"
+            }
+        },
+        "1000B": {
+            "NM1": {
+                "NM101_Entity Identifier Code": "40",
+                "NM102_Entity Type Qualifier": "2",
+                "NM103_Receiver Name": "123456789",
+                "NM108_Identification Code Qualifier": "46",
+                "NM109_Receiver Primary Identifier": "CHPWA"
+            }
+        },
+        "2000A": {
+            "HL": {
+                "HL01_Hierarchical ID Number": "1",
+                "HL03_Hierarchical Level Code": "20",
+                "HL04_Hierarchical Child Code": "1"
+            }
+        },
+        "2000B": {
+            "HL": {
+                "HL01_Hierarchical ID Number": "2",
+                "HL02_Hierarchical Parent ID Number": "1",
+                "HL03_Hierarchical Level Code": "22",
+                "HL04_Hierarchical Child Code": "0"
+            },
+            "SBR": {
+                "SBR01_Payer Responsibility Sequence Number code": "P",
+                "SBR02_Individual Relationship Code": "18",
+                "SBR04_Name": "COMMUNITY HLTH PLAN OF WASH",
+                "SBR09_Claim Filling Indicator Code": "CI"
+            }
+        },
+        "2010AA": {
+            "N3": {
+                "N301_Billing Provider Address Line": "12345 MAIN ST"
+            },
+            "N4": {
+                "N401_Billing Provider City Name": "VANCOUVER",
+                "N402_Billing Provider State or Province Code": "WA",
+                "N403_Billing Provider Postal Zone or ZIP Code": "98662"
+            },
+            "NM1": {
+                "NM101_Entity Identifier Code": "85",
+                "NM102_Entity Type Qualifier": "2",
+                "NM103_Billing Provider Last or Organizational Name": "BH CLINIC OF VANCOUVER",
+                "NM108_Identification Code Qualifier": "XX",
+                "NM109_Billing Provider Identifier": "1122334455"
+            },
+            "PER": {
+                "PER01_Contact Function Code": "IC",
+                "PER02_Billing Provider Contact Name": "CONTACT",
+                "PER03_Communication Number Qualifier": "TE",
+                "PER04_Communication Number": "9185551212"
+            },
+            "REF_EI": {
+                "REF01_Reference Identification Qualifier": "EI",
+                "REF02_Pay-to Plan Secondary Identifier": "720000000"
+            }
+        },
+        "2010AB": {
+            "N3": {
+                "N301_Pay-To Address Line": "PO BOX 1234"
+            },
+            "N4": {
+                "N401_Pay-to Address City Name": "VANCOUVER",
+                "N402_Pay-to Address State Code": "WA",
+                "N403_Pay-to Address Postal Zone or ZIP Code": "986681234"
+            },
+            "NM1": {
+                "NM101_Entity Identifier Code": "87",
+                "NM102_Entity Type Qualifier": "2"
+            }
+        },
+        "2010BA": {
+            "DMG": {
+                "DMG01_Date Time Period Format Qualifier": "D8",
+                "DMG02_Subscriber Birth Date": "19881225",
+                "DMG03_Subscriber Gender Code": "M"
+            },
+            "N3": {
+                "N301_Subscriber Address Line": "987 65TH PL"
+            },
+            "N4": {
+                "N401_Subscriber City Name": "VANCOUVER",
+                "N402_Subscriber State Code": "WA",
+                "N403_Subscriber Postal Zone or ZIP Code": "986640001"
+            },
+            "NM1": {
+                "NM101_Entity Identifier Code": "IL",
+                "NM102_Entity Type Qualifier": "1",
+                "NM103_Subscriber Last Name": "SUBSCRIBER",
+                "NM104_Subscriber First  Name": "JOHN",
+                "NM105_Subscriber Middle Name or Initial": "J",
+                "NM108_Identification Code Qualifier": "MI",
+                "NM109_Subscriber Primary Identifier": "987321"
+            }
+        },
+        "2010BB": {
+            "NM1": {
+                "NM101_Entity Identifier code": "PR",
+                "NM102_Entity Type Qualifier": "2",
+                "NM103_Payer Name": "COMMUNITY HEALTH PLAN OF WASHINGTON",
+                "NM108_Identification Code Qualifier": "PI",
+                "NM109_Payer Identifier": "CHPWA"
+            }
+        },
+        "2300": {
+            "CLM": {
+                "CLM01_Patient Control Number": "1805080AV3648339",
+                "CLM02_Total Claim Charge Amount": "20",
+                "CLM05_Health Care Service Location Information": "57:B:1",
+                "CLM06_Provider or Supplier Signature Indicator": "Y",
+                "CLM07_Assignment or Plan Participation Code": "A",
+                "CLM08_Benefits Assignment Certification Indicator": "Y",
+                "CLM09_Release of Information Code": "Y"
+            },
+            "HI_AB": {
+                "HI01_2300_AB": "ABK:F1120"
+            },
+            "REF_D9": {
+                "REF01_Reference Identification Qualifier": "D9",
+                "REF02_Value Added Network Trace Number": "7349065509"
+            }
+        },
+        "2310B": {
+            "NM1": {
+                "NM101_Entity Identifier Code": "82",
+                "NM102_Entity Type Qualifier": "1",
+                "NM103_Rendering Provider Last or Organization Name": "PROVIDER",
+                "NM104_Rendering Provider First Name": "JAMES",
+                "NM108_Rendering Provider Identifier": "XX",
+                "NM109_Identification Code": "1112223338"
+            },
+            "PRV": {
+                "PRV01_Provider Code": "PE",
+                "PRV02_Reference Identification Qualifier": "PXC",
+                "PRV03_Provider Taxonomy Code": "261QR0405X"
+            }
+        },
+        "2310C": {
+            "N3": {
+                "N301_Laboratory or Facility Address Line": "12345 MAIN ST SUITE A1"
+            },
+            "N4": {
+                "N401_Laboratory or Facility City Name": "VANCOUVER",
+                "N402_Laboratory or Facility State or Province Code": "WA",
+                "N403_Laboratory or Facility Postal Zone or ZIP Code": "98662"
+            },
+            "NM1": {
+                "NM101_Entity Identifier Code": "77",
+                "NM102_Entity Type Qualifier": "2",
+                "NM103_Laboratory or Facility Name": "BH CLINIC OF VANCOUVER",
+                "NM108_Identification Code Qualifier": "XX",
+                "NM109_Laboratory or Facility Primary Identifier": "1122334455"
+            }
+        },
+        "Header": {
+            "BHT": {
+                "BHT01_Hierarchical Structure Code": "0019",
+                "BHT02_Information Source, Subscriber, Dependent": "00",
+                "BHT03_Reference Identification": "7349063984",
+                "BHT04_Date": "20180508",
+                "BHT05_Time": "0833",
+                "BHT06_Transaction Type Code": "CH"
+            },
+            "GS": {
+                "GS01_Functional Identifier Code": "HC",
+                "GS02_Application Sender's Code": "CLEARINGHOUSE",
+                "GS03_Application Receiver's Code": "123456789",
+                "GS04_Date": "20180508",
+                "GS05_Time": "0833",
+                "GS06_Group Control Number": "212950697",
+                "GS07_Responsible Agency Code": "X",
+                "GS08_Version/Release Industry ID Code": "005010X222A1"
+            },
+            "ISA": {
+                "ISA01_Authorization Information Qualifier": "00",
+                "ISA03_Security Information Qualifier": "00",
+                "ISA05_Interchange ID Qualifier": "01",
+                "ISA06_Interchange Sender ID": "987654321      ",
+                "ISA07_Interchange ID Qualifier": "ZZ",
+                "ISA08_Interchange Receiver ID": "123456789      ",
+                "ISA09_Interchange Date": "180508",
+                "ISA10_Interchange Time": "0833",
+                "ISA11_Interchange Control Standards Identifier": "^",
+                "ISA12_Interchange Control Version Number": "00501",
+                "ISA13_Interchange Control Number": "697773230",
+                "ISA14_Acknowledgement Requested": "1",
+                "ISA15_Usage Indicator": "P",
+                "ISA16_Component Element Separator": ":"
+            },
+            "ST": {
+                "ST01_Transaction Set Identifier Code": "837",
+                "ST02_Transaction Set Control Number": "000000001",
+                "ST03_Implementation Convention Reference": "005010X222A1"
+            }
+        },
+        "Trailer": {
+            "SE": {
+                "SE01_Transaction Set Control Number": "34",
+                "SE02_Transaction Set Control Number": "000000001"
+            }
+        }
+    },
+    "Claim 2": {
+        "1000A": {
+            "NM1": {
+                "NM101_Entity Identifier Code": "41",
+                "NM102_Entity Type Qualifier": "2",
+                "NM103_Submitter Last or Organization Name": "CLEARINGHOUSE LLC",
+                "NM108_Submitter Identifier": "46",
+                "NM109_Submitter Primary Identifier": "987654321"
+            },
+            "PER": {
+                "PER01_Contact Function Code": "IC",
+                "PER02_Submitter Contact Name": "CLEARINGHOUSE CLIENT SERVICES",
+                "PER03_Communication Number Qualifier": "TE",
+                "PER04_Communication Number": "8005551212",
+                "PER05_Communication Number Qualifier": "FX",
+                "PER06_Communication Number": "8005551212"
+            }
+        },
+        "1000B": {
+            "NM1": {
+                "NM101_Entity Identifier Code": "40",
+                "NM102_Entity Type Qualifier": "2",
+                "NM103_Receiver Name": "123456789",
+                "NM108_Identification Code Qualifier": "46",
+                "NM109_Receiver Primary Identifier": "CHPWA"
+            }
+        },
+        "2000A": {
+            "HL": {
+                "HL01_Hierarchical ID Number": "63",
+                "HL03_Hierarchical Level Code": "20",
+                "HL04_Hierarchical Child Code": "1"
+            }
+        },
+        "2000B": {
+            "HL": {
+                "HL01_Hierarchical ID Number": "64",
+                "HL02_Hierarchical Parent ID Number": "63",
+                "HL03_Hierarchical Level Code": "22",
+                "HL04_Hierarchical Child Code": "0"
+            },
+            "SBR": {
+                "SBR01_Payer Responsibility Sequence Number code": "P",
+                "SBR02_Individual Relationship Code": "18",
+                "SBR04_Name": "COMMUNITY HLTH PLAN OF WASH",
+                "SBR09_Claim Filling Indicator Code": "CI"
+            }
+        },
+        "2010AA": {
+            "N3": {
+                "N301_Billing Provider Address Line": "12345 MAIN ST"
+            },
+            "N4": {
+                "N401_Billing Provider City Name": "VANCOUVER",
+                "N402_Billing Provider State or Province Code": "WA",
+                "N403_Billing Provider Postal Zone or ZIP Code": "98662"
+            },
+            "NM1": {
+                "NM101_Entity Identifier Code": "85",
+                "NM102_Entity Type Qualifier": "2",
+                "NM103_Billing Provider Last or Organizational Name": "BH CLINIC OF VANCOUVER",
+                "NM108_Identification Code Qualifier": "XX",
+                "NM109_Billing Provider Identifier": "1122334455"
+            },
+            "PER": {
+                "PER01_Contact Function Code": "IC",
+                "PER02_Billing Provider Contact Name": "CONTACT",
+                "PER03_Communication Number Qualifier": "TE",
+                "PER04_Communication Number": "9185551212"
+            },
+            "REF_EI": {
+                "REF01_Reference Identification Qualifier": "EI",
+                "REF02_Pay-to Plan Secondary Identifier": "720000000"
+            }
+        },
+        "2010AB": {
+            "N3": {
+                "N301_Pay-To Address Line": "PO BOX 1234"
+            },
+            "N4": {
+                "N401_Pay-to Address City Name": "VANCOUVER",
+                "N402_Pay-to Address State Code": "WA",
+                "N403_Pay-to Address Postal Zone or ZIP Code": "986681234"
+            },
+            "NM1": {
+                "NM101_Entity Identifier Code": "87",
+                "NM102_Entity Type Qualifier": "2"
+            }
+        },
+        "2010BA": {
+            "DMG": {
+                "DMG01_Date Time Period Format Qualifier": "D8",
+                "DMG02_Subscriber Birth Date": "19881031",
+                "DMG03_Subscriber Gender Code": "F"
+            },
+            "N3": {
+                "N301_Subscriber Address Line": "765 43RD ST"
+            },
+            "N4": {
+                "N401_Subscriber City Name": "VANCOUVER",
+                "N402_Subscriber State Code": "WA",
+                "N403_Subscriber Postal Zone or ZIP Code": "986640002"
+            },
+            "NM1": {
+                "NM101_Entity Identifier Code": "IL",
+                "NM102_Entity Type Qualifier": "1",
+                "NM103_Subscriber Last Name": "PATIENT",
+                "NM104_Subscriber First  Name": "SUSAN",
+                "NM105_Subscriber Middle Name or Initial": "E",
+                "NM108_Identification Code Qualifier": "MI",
+                "NM109_Subscriber Primary Identifier": "765123"
+            }
+        },
+        "2010BB": {
+            "NM1": {
+                "NM101_Entity Identifier code": "PR",
+                "NM102_Entity Type Qualifier": "2",
+                "NM103_Payer Name": "COMMUNITY HEALTH PLAN OF WASHINGTON",
+                "NM108_Identification Code Qualifier": "PI",
+                "NM109_Payer Identifier": "CHPWA"
+            }
+        },
+        "2300": {
+            "CLM": {
+                "CLM01_Patient Control Number": "1805080AV3648347",
+                "CLM02_Total Claim Charge Amount": "50.1",
+                "CLM05_Health Care Service Location Information": "57:B:1",
+                "CLM06_Provider or Supplier Signature Indicator": "Y",
+                "CLM07_Assignment or Plan Participation Code": "A",
+                "CLM08_Benefits Assignment Certification Indicator": "Y",
+                "CLM09_Release of Information Code": "Y"
+            },
+            "HI_AB": {
+                "HI01_2300_AB": "ABK:F1520",
+                "HI02_2300_AB": "ABF:F1220"
+            },
+            "REF_D9": {
+                "REF01_Reference Identification Qualifier": "D9",
+                "REF02_Value Added Network Trace Number": "7349065730"
+            }
+        },
+        "2310B": {
+            "NM1": {
+                "NM101_Entity Identifier Code": "82",
+                "NM102_Entity Type Qualifier": "1",
+                "NM103_Rendering Provider Last or Organization Name": "PROVIDER",
+                "NM104_Rendering Provider First Name": "SUSAN",
+                "NM108_Rendering Provider Identifier": "XX",
+                "NM109_Identification Code": "1112223346"
+            },
+            "PRV": {
+                "PRV01_Provider Code": "PE",
+                "PRV02_Reference Identification Qualifier": "PXC",
+                "PRV03_Provider Taxonomy Code": "261QR0405X"
+            }
+        },
+        "2310C": {
+            "N3": {
+                "N301_Laboratory or Facility Address Line": "12345 MAIN ST SUITE A1"
+            },
+            "N4": {
+                "N401_Laboratory or Facility City Name": "VANCOUVER",
+                "N402_Laboratory or Facility State or Province Code": "WA",
+                "N403_Laboratory or Facility Postal Zone or ZIP Code": "98662"
+            },
+            "NM1": {
+                "NM101_Entity Identifier Code": "77",
+                "NM102_Entity Type Qualifier": "2",
+                "NM103_Laboratory or Facility Name": "BH CLINIC OF VANCOUVER",
+                "NM108_Identification Code Qualifier": "XX",
+                "NM109_Laboratory or Facility Primary Identifier": "1122334455"
+            }
+        },
+        "Header": {
+            "BHT": {
+                "BHT01_Hierarchical Structure Code": "0019",
+                "BHT02_Information Source, Subscriber, Dependent": "00",
+                "BHT03_Reference Identification": "7349063984",
+                "BHT04_Date": "20180508",
+                "BHT05_Time": "0833",
+                "BHT06_Transaction Type Code": "CH"
+            },
+            "ST": {
+                "ST01_Transaction Set Identifier Code": "837",
+                "ST02_Transaction Set Control Number": "000000002",
+                "ST03_Implementation Convention Reference": "005010X222A1"
+            }
+        },
+        "Trailer": {
+            "SE": {
+                "SE01_Transaction Set Control Number": "34",
+                "SE02_Transaction Set Control Number": "000000002"
+            }
+        }
+    },
+    "Claim 3": {
+        "1000A": {
+            "NM1": {
+                "NM101_Entity Identifier Code": "41",
+                "NM102_Entity Type Qualifier": "2",
+                "NM103_Submitter Last or Organization Name": "CLEARINGHOUSE LLC",
+                "NM108_Submitter Identifier": "46",
+                "NM109_Submitter Primary Identifier": "987654321"
+            },
+            "PER": {
+                "PER01_Contact Function Code": "IC",
+                "PER02_Submitter Contact Name": "CLEARINGHOUSE CLIENT SERVICES",
+                "PER03_Communication Number Qualifier": "TE",
+                "PER04_Communication Number": "8005551212",
+                "PER05_Communication Number Qualifier": "FX",
+                "PER06_Communication Number": "8005551212"
+            }
+        },
+        "1000B": {
+            "NM1": {
+                "NM101_Entity Identifier Code": "40",
+                "NM102_Entity Type Qualifier": "2",
+                "NM103_Receiver Name": "123456789",
+                "NM108_Identification Code Qualifier": "46",
+                "NM109_Receiver Primary Identifier": "CHPWA"
+            }
+        },
+        "2000A": {
+            "HL": {
+                "HL01_Hierarchical ID Number": "49",
+                "HL03_Hierarchical Level Code": "20",
+                "HL04_Hierarchical Child Code": "1"
+            }
+        },
+        "2000B": {
+            "HL": {
+                "HL01_Hierarchical ID Number": "50",
+                "HL02_Hierarchical Parent ID Number": "49",
+                "HL03_Hierarchical Level Code": "22",
+                "HL04_Hierarchical Child Code": "0"
+            },
+            "SBR": {
+                "SBR01_Payer Responsibility Sequence Number code": "P",
+                "SBR02_Individual Relationship Code": "18",
+                "SBR04_Name": "COMMUNITY HLTH PLAN OF WASH",
+                "SBR09_Claim Filling Indicator Code": "CI"
+            }
+        },
+        "2010AA": {
+            "N3": {
+                "N301_Billing Provider Address Line": "12345 MAIN ST"
+            },
+            "N4": {
+                "N401_Billing Provider City Name": "VANCOUVER",
+                "N402_Billing Provider State or Province Code": "WA",
+                "N403_Billing Provider Postal Zone or ZIP Code": "98662"
+            },
+            "NM1": {
+                "NM101_Entity Identifier Code": "85",
+                "NM102_Entity Type Qualifier": "2",
+                "NM103_Billing Provider Last or Organizational Name": "BH CLINIC OF VANCOUVER",
+                "NM108_Identification Code Qualifier": "XX",
+                "NM109_Billing Provider Identifier": "1122334455"
+            },
+            "PER": {
+                "PER01_Contact Function Code": "IC",
+                "PER02_Billing Provider Contact Name": "CONTACT",
+                "PER03_Communication Number Qualifier": "TE",
+                "PER04_Communication Number": "9185551212"
+            },
+            "REF_EI": {
+                "REF01_Reference Identification Qualifier": "EI",
+                "REF02_Pay-to Plan Secondary Identifier": "720000000"
+            }
+        },
+        "2010AB": {
+            "N3": {
+                "N301_Pay-To Address Line": "PO BOX 1234"
+            },
+            "N4": {
+                "N401_Pay-to Address City Name": "VANCOUVER",
+                "N402_Pay-to Address State Code": "WA",
+                "N403_Pay-to Address Postal Zone or ZIP Code": "986681234"
+            },
+            "NM1": {
+                "NM101_Entity Identifier Code": "87",
+                "NM102_Entity Type Qualifier": "2"
+            }
+        },
+        "2010BA": {
+            "DMG": {
+                "DMG01_Date Time Period Format Qualifier": "D8",
+                "DMG02_Subscriber Birth Date": "19881225",
+                "DMG03_Subscriber Gender Code": "M"
+            },
+            "N3": {
+                "N301_Subscriber Address Line": "987 65TH PL"
+            },
+            "N4": {
+                "N401_Subscriber City Name": "VANCOUVER",
+                "N402_Subscriber State Code": "WA",
+                "N403_Subscriber Postal Zone or ZIP Code": "986640001"
+            },
+            "NM1": {
+                "NM101_Entity Identifier Code": "IL",
+                "NM102_Entity Type Qualifier": "1",
+                "NM103_Subscriber Last Name": "SUBSCRIBER",
+                "NM104_Subscriber First  Name": "JOHN",
+                "NM105_Subscriber Middle Name or Initial": "J",
+                "NM108_Identification Code Qualifier": "MI",
+                "NM109_Subscriber Primary Identifier": "987321"
+            }
+        },
+        "2010BB": {
+            "NM1": {
+                "NM101_Entity Identifier code": "PR",
+                "NM102_Entity Type Qualifier": "2",
+                "NM103_Payer Name": "COMMUNITY HEALTH PLAN OF WASHINGTON",
+                "NM108_Identification Code Qualifier": "PI",
+                "NM109_Payer Identifier": "CHPWA"
+            }
+        },
+        "2300": {
+            "CLM": {
+                "CLM01_Patient Control Number": "1805080AV3648340",
+                "CLM02_Total Claim Charge Amount": "11.64",
+                "CLM05_Health Care Service Location Information": "57:B:1",
+                "CLM06_Provider or Supplier Signature Indicator": "Y",
+                "CLM07_Assignment or Plan Participation Code": "A",
+                "CLM08_Benefits Assignment Certification Indicator": "Y",
+                "CLM09_Release of Information Code": "Y"
+            },
+            "HI_AB": {
+                "HI01_2300_AB": "ABK:F1020",
+                "HI02_2300_AB": "ABF:F1220"
+            },
+            "REF_D9": {
+                "REF01_Reference Identification Qualifier": "D9",
+                "REF02_Value Added Network Trace Number": "7349065492"
+            }
+        },
+        "2310B": {
+            "NM1": {
+                "NM101_Entity Identifier Code": "82",
+                "NM102_Entity Type Qualifier": "1",
+                "NM103_Rendering Provider Last or Organization Name": "PROVIDER",
+                "NM104_Rendering Provider First Name": "SUSAN",
+                "NM108_Rendering Provider Identifier": "XX",
+                "NM109_Identification Code": "1112223346"
+            },
+            "PRV": {
+                "PRV01_Provider Code": "PE",
+                "PRV02_Reference Identification Qualifier": "PXC",
+                "PRV03_Provider Taxonomy Code": "261QR0405X"
+            }
+        },
+        "2310C": {
+            "N3": {
+                "N301_Laboratory or Facility Address Line": "12345 MAIN ST SUITE A1"
+            },
+            "N4": {
+                "N401_Laboratory or Facility City Name": "VANCOUVER",
+                "N402_Laboratory or Facility State or Province Code": "WA",
+                "N403_Laboratory or Facility Postal Zone or ZIP Code": "98662"
+            },
+            "NM1": {
+                "NM101_Entity Identifier Code": "77",
+                "NM102_Entity Type Qualifier": "2",
+                "NM103_Laboratory or Facility Name": "BH CLINIC OF VANCOUVER",
+                "NM108_Identification Code Qualifier": "XX",
+                "NM109_Laboratory or Facility Primary Identifier": "1122334455"
+            }
+        },
+        "Header": {
+            "BHT": {
+                "BHT01_Hierarchical Structure Code": "0019",
+                "BHT02_Information Source, Subscriber, Dependent": "00",
+                "BHT03_Reference Identification": "7349063984",
+                "BHT04_Date": "20180508",
+                "BHT05_Time": "0833",
+                "BHT06_Transaction Type Code": "CH"
+            },
+            "ST": {
+                "ST01_Transaction Set Identifier Code": "837",
+                "ST02_Transaction Set Control Number": "000000003",
+                "ST03_Implementation Convention Reference": "005010X222A1"
+            }
+        },
+        "Trailer": {
+            "SE": {
+                "SE01_Transaction Set Control Number": "34",
+                "SE02_Transaction Set Control Number": "000000003"
+            }
+        }
+    },
+    "Claim 4": {
+        "1000A": {
+            "NM1": {
+                "NM101_Entity Identifier Code": "41",
+                "NM102_Entity Type Qualifier": "2",
+                "NM103_Submitter Last or Organization Name": "CLEARINGHOUSE LLC",
+                "NM108_Submitter Identifier": "46",
+                "NM109_Submitter Primary Identifier": "987654321"
+            },
+            "PER": {
+                "PER01_Contact Function Code": "IC",
+                "PER02_Submitter Contact Name": "CLEARINGHOUSE CLIENT SERVICES",
+                "PER03_Communication Number Qualifier": "TE",
+                "PER04_Communication Number": "8005551212",
+                "PER05_Communication Number Qualifier": "FX",
+                "PER06_Communication Number": "8005551212"
+            }
+        },
+        "1000B": {
+            "NM1": {
+                "NM101_Entity Identifier Code": "40",
+                "NM102_Entity Type Qualifier": "2",
+                "NM103_Receiver Name": "123456789",
+                "NM108_Identification Code Qualifier": "46",
+                "NM109_Receiver Primary Identifier": "CHPWA"
+            }
+        },
+        "2000A": {
+            "HL": {
+                "HL01_Hierarchical ID Number": "75",
+                "HL03_Hierarchical Level Code": "20",
+                "HL04_Hierarchical Child Code": "1"
+            }
+        },
+        "2000B": {
+            "HL": {
+                "HL01_Hierarchical ID Number": "76",
+                "HL02_Hierarchical Parent ID Number": "75",
+                "HL03_Hierarchical Level Code": "22",
+                "HL04_Hierarchical Child Code": "0"
+            },
+            "SBR": {
+                "SBR01_Payer Responsibility Sequence Number code": "P",
+                "SBR02_Individual Relationship Code": "18",
+                "SBR04_Name": "COMMUNITY HLTH PLAN OF WASH",
+                "SBR09_Claim Filling Indicator Code": "CI"
+            }
+        },
+        "2010AA": {
+            "N3": {
+                "N301_Billing Provider Address Line": "12345 MAIN ST"
+            },
+            "N4": {
+                "N401_Billing Provider City Name": "VANCOUVER",
+                "N402_Billing Provider State or Province Code": "WA",
+                "N403_Billing Provider Postal Zone or ZIP Code": "98662"
+            },
+            "NM1": {
+                "NM101_Entity Identifier Code": "85",
+                "NM102_Entity Type Qualifier": "2",
+                "NM103_Billing Provider Last or Organizational Name": "BH CLINIC OF VANCOUVER",
+                "NM108_Identification Code Qualifier": "XX",
+                "NM109_Billing Provider Identifier": "1122334455"
+            },
+            "PER": {
+                "PER01_Contact Function Code": "IC",
+                "PER02_Billing Provider Contact Name": "CONTACT",
+                "PER03_Communication Number Qualifier": "TE",
+                "PER04_Communication Number": "9185551212"
+            },
+            "REF_EI": {
+                "REF01_Reference Identification Qualifier": "EI",
+                "REF02_Pay-to Plan Secondary Identifier": "720000000"
+            }
+        },
+        "2010AB": {
+            "N3": {
+                "N301_Pay-To Address Line": "PO BOX 1234"
+            },
+            "N4": {
+                "N401_Pay-to Address City Name": "VANCOUVER",
+                "N402_Pay-to Address State Code": "WA",
+                "N403_Pay-to Address Postal Zone or ZIP Code": "986681234"
+            },
+            "NM1": {
+                "NM101_Entity Identifier Code": "87",
+                "NM102_Entity Type Qualifier": "2"
+            }
+        },
+        "2010BA": {
+            "DMG": {
+                "DMG01_Date Time Period Format Qualifier": "D8",
+                "DMG02_Subscriber Birth Date": "19881031",
+                "DMG03_Subscriber Gender Code": "F"
+            },
+            "N3": {
+                "N301_Subscriber Address Line": "765 43RD ST"
+            },
+            "N4": {
+                "N401_Subscriber City Name": "VANCOUVER",
+                "N402_Subscriber State Code": "WA",
+                "N403_Subscriber Postal Zone or ZIP Code": "986640002"
+            },
+            "NM1": {
+                "NM101_Entity Identifier Code": "IL",
+                "NM102_Entity Type Qualifier": "1",
+                "NM103_Subscriber Last Name": "PATIENT",
+                "NM104_Subscriber First  Name": "SUSAN",
+                "NM105_Subscriber Middle Name or Initial": "E",
+                "NM108_Identification Code Qualifier": "MI",
+                "NM109_Subscriber Primary Identifier": "765123"
+            }
+        },
+        "2010BB": {
+            "NM1": {
+                "NM101_Entity Identifier code": "PR",
+                "NM102_Entity Type Qualifier": "2",
+                "NM103_Payer Name": "COMMUNITY HEALTH PLAN OF WASHINGTON",
+                "NM108_Identification Code Qualifier": "PI",
+                "NM109_Payer Identifier": "CHPWA"
+            }
+        },
+        "2300": {
+            "CLM": {
+                "CLM01_Patient Control Number": "1805080AV3648353",
+                "CLM02_Total Claim Charge Amount": "234",
+                "CLM05_Health Care Service Location Information": "53:B:1",
+                "CLM06_Provider or Supplier Signature Indicator": "Y",
+                "CLM07_Assignment or Plan Participation Code": "A",
+                "CLM08_Benefits Assignment Certification Indicator": "Y",
+                "CLM09_Release of Information Code": "Y"
+            },
+            "HI_AB": {
+                "HI01_2300_AB": "ABK:F251"
+            },
+            "REF_D9": {
+                "REF01_Reference Identification Qualifier": "D9",
+                "REF02_Value Added Network Trace Number": "7349064290"
+            }
+        },
+        "2310B": {
+            "NM1": {
+                "NM101_Entity Identifier Code": "82",
+                "NM102_Entity Type Qualifier": "1",
+                "NM103_Rendering Provider Last or Organization Name": "PROVIDER",
+                "NM104_Rendering Provider First Name": "SUSAN",
+                "NM108_Rendering Provider Identifier": "XX",
+                "NM109_Identification Code": "1112223346"
+            },
+            "PRV": {
+                "PRV01_Provider Code": "PE",
+                "PRV02_Reference Identification Qualifier": "PXC",
+                "PRV03_Provider Taxonomy Code": "251S00000X"
+            }
+        },
+        "2310C": {
+            "N3": {
+                "N301_Laboratory or Facility Address Line": "12345 MAIN ST SUITE A1"
+            },
+            "N4": {
+                "N401_Laboratory or Facility City Name": "VANCOUVER",
+                "N402_Laboratory or Facility State or Province Code": "WA",
+                "N403_Laboratory or Facility Postal Zone or ZIP Code": "98662"
+            },
+            "NM1": {
+                "NM101_Entity Identifier Code": "77",
+                "NM102_Entity Type Qualifier": "2",
+                "NM103_Laboratory or Facility Name": "BH CLINIC OF VANCOUVER",
+                "NM108_Identification Code Qualifier": "XX",
+                "NM109_Laboratory or Facility Primary Identifier": "1122334455"
+            }
+        },
+        "Header": {
+            "BHT": {
+                "BHT01_Hierarchical Structure Code": "0019",
+                "BHT02_Information Source, Subscriber, Dependent": "00",
+                "BHT03_Reference Identification": "7349063984",
+                "BHT04_Date": "20180508",
+                "BHT05_Time": "0833",
+                "BHT06_Transaction Type Code": "CH"
+            },
+            "ST": {
+                "ST01_Transaction Set Identifier Code": "837",
+                "ST02_Transaction Set Control Number": "000000004",
+                "ST03_Implementation Convention Reference": "005010X222A1"
+            }
+        },
+        "Trailer": {
+            "SE": {
+                "SE01_Transaction Set Control Number": "35",
+                "SE02_Transaction Set Control Number": "000000004"
+            }
+        }
+    },
+    "Claim 5": {
+        "1000A": {
+            "NM1": {
+                "NM101_Entity Identifier Code": "41",
+                "NM102_Entity Type Qualifier": "2",
+                "NM103_Submitter Last or Organization Name": "NGHOUSE LC",
+                "NM108_Submitter Identifier": "46",
+                "NM109_Submitter Primary Identifier": "54321"
+            },
+            "PER": {
+                "PER01_Contact Function Code": "IC",
+                "PER02_Submitter Contact Name": "CLEARINGHOUSE CLIENT SERVICES",
+                "PER03_Communication Number Qualifier": "TE",
+                "PER04_Communication Number": "8005551212",
+                "PER05_Communication Number Qualifier": "FX",
+                "PER06_Communication Number": "8005551212"
+            }
+        },
+        "1000B": {
+            "NM1": {
+                "NM101_Entity Identifier Code": "40",
+                "NM102_Entity Type Qualifier": "2",
+                "NM103_Receiver Name": "123456789",
+                "NM108_Identification Code Qualifier": "46",
+                "NM109_Receiver Primary Identifier": "CHPWA"
+            }
+        },
+        "2000A": {
+            "HL": {
+                "HL01_Hierarchical ID Number": "79",
+                "HL03_Hierarchical Level Code": "20",
+                "HL04_Hierarchical Child Code": "1"
+            }
+        },
+        "2000B": {
+            "HL": {
+                "HL01_Hierarchical ID Number": "80",
+                "HL02_Hierarchical Parent ID Number": "79",
+                "HL03_Hierarchical Level Code": "22",
+                "HL04_Hierarchical Child Code": "0"
+            },
+            "SBR": {
+                "SBR01_Payer Responsibility Sequence Number code": "P",
+                "SBR02_Individual Relationship Code": "18",
+                "SBR04_Name": "COMMUNITY HLTH PLAN OF WASH",
+                "SBR09_Claim Filling Indicator Code": "CI"
+            }
+        },
+        "2010AA": {
+            "N3": {
+                "N301_Billing Provider Address Line": "12345 MAIN ST"
+            },
+            "N4": {
+                "N401_Billing Provider City Name": "VANCOUVER",
+                "N402_Billing Provider State or Province Code": "WA",
+                "N403_Billing Provider Postal Zone or ZIP Code": "98662"
+            },
+            "NM1": {
+                "NM101_Entity Identifier Code": "85",
+                "NM102_Entity Type Qualifier": "2",
+                "NM103_Billing Provider Last or Organizational Name": "BH CLINIC OF VANCOUVER",
+                "NM108_Identification Code Qualifier": "XX",
+                "NM109_Billing Provider Identifier": "1122334455"
+            },
+            "PER": {
+                "PER01_Contact Function Code": "IC",
+                "PER02_Billing Provider Contact Name": "CONTACT",
+                "PER03_Communication Number Qualifier": "TE",
+                "PER04_Communication Number": "9185551212"
+            },
+            "REF_EI": {
+                "REF01_Reference Identification Qualifier": "EI",
+                "REF02_Pay-to Plan Secondary Identifier": "720000000"
+            }
+        },
+        "2010AB": {
+            "N3": {
+                "N301_Pay-To Address Line": "PO BOX 1234"
+            },
+            "N4": {
+                "N401_Pay-to Address City Name": "VANCOUVER",
+                "N402_Pay-to Address State Code": "WA",
+                "N403_Pay-to Address Postal Zone or ZIP Code": "986681234"
+            },
+            "NM1": {
+                "NM101_Entity Identifier Code": "87",
+                "NM102_Entity Type Qualifier": "2"
+            }
+        },
+        "2010BA": {
+            "DMG": {
+                "DMG01_Date Time Period Format Qualifier": "D8",
+                "DMG02_Subscriber Birth Date": "19881225",
+                "DMG03_Subscriber Gender Code": "M"
+            },
+            "N3": {
+                "N301_Subscriber Address Line": "987 65TH PL"
+            },
+            "N4": {
+                "N401_Subscriber City Name": "VANCOUVER",
+                "N402_Subscriber State Code": "WA",
+                "N403_Subscriber Postal Zone or ZIP Code": "986640001"
+            },
+            "NM1": {
+                "NM101_Entity Identifier Code": "IL",
+                "NM102_Entity Type Qualifier": "1",
+                "NM103_Subscriber Last Name": "SUBSCRIBER",
+                "NM104_Subscriber First  Name": "JOHN",
+                "NM105_Subscriber Middle Name or Initial": "J",
+                "NM108_Identification Code Qualifier": "MI",
+                "NM109_Subscriber Primary Identifier": "987321"
+            }
+        },
+        "2010BB": {
+            "NM1": {
+                "NM101_Entity Identifier code": "PR",
+                "NM102_Entity Type Qualifier": "2",
+                "NM103_Payer Name": "COMMUNITY HEALTH PLAN OF WASHINGTON",
+                "NM108_Identification Code Qualifier": "PI",
+                "NM109_Payer Identifier": "CHPWA"
+            }
+        },
+        "2300": {
+            "CLM": {
+                "CLM01_Patient Control Number": "1805080AV3648355",
+                "CLM02_Total Claim Charge Amount": "20",
+                "CLM05_Health Care Service Location Information": "57:B:1",
+                "CLM06_Provider or Supplier Signature Indicator": "Y",
+                "CLM07_Assignment or Plan Participation Code": "A",
+                "CLM08_Benefits Assignment Certification Indicator": "Y",
+                "CLM09_Release of Information Code": "Y"
+            },
+            "HI_AB": {
+                "HI01_2300_AB": "ABK:F1020",
+                "HI02_2300_AB": "ABF:F1120"
+            },
+            "REF_D9": {
+                "REF01_Reference Identification Qualifier": "D9",
+                "REF02_Value Added Network Trace Number": "7349064036"
+            }
+        },
+        "2310B": {
+            "NM1": {
+                "NM101_Entity Identifier Code": "82",
+                "NM102_Entity Type Qualifier": "1",
+                "NM103_Rendering Provider Last or Organization Name": "PROVIDER",
+                "NM104_Rendering Provider First Name": "JAMES",
+                "NM108_Rendering Provider Identifier": "XX",
+                "NM109_Identification Code": "1112223338"
+            },
+            "PRV": {
+                "PRV01_Provider Code": "PE",
+                "PRV02_Reference Identification Qualifier": "PXC",
+                "PRV03_Provider Taxonomy Code": "261QR0405X"
+            }
+        },
+        "2310C": {
+            "N3": {
+                "N301_Laboratory or Facility Address Line": "12345 MAIN ST SUITE A1"
+            },
+            "N4": {
+                "N401_Laboratory or Facility City Name": "VANCOUVER",
+                "N402_Laboratory or Facility State or Province Code": "WA",
+                "N403_Laboratory or Facility Postal Zone or ZIP Code": "98662"
+            },
+            "NM1": {
+                "NM101_Entity Identifier Code": "77",
+                "NM102_Entity Type Qualifier": "2",
+                "NM103_Laboratory or Facility Name": "BH CLINIC OF VANCOUVER",
+                "NM108_Identification Code Qualifier": "XX",
+                "NM109_Laboratory or Facility Primary Identifier": "1122334455"
+            }
+        },
+        "2400": {
+            "DTP_472": {
+                "DTP01_Date Time Qualifier": "472",
+                "DTP02_Date Time Period Format Qualifier": "D8",
+                "DTP03_Service Date": "20180427"
+            },
+            "LX": {
+                "LX01_Assigned Number": "1"
+            },
+            "REF_6R": {
+                "REF01_Reference Identification Qualifier": "6R",
+                "REF02_Line Item Control Number": "143907"
+            },
+            "SV1": {
+                "SV101_Composite Medical Procedure Identifier": "HC:H0003",
+                "SV102_Line Item Charge Amount": "20",
+                "SV103_Unit or Basis for Measurement Code": "UN",
+                "SV104_Service Unit Count": "1",
+                "SV107_Composite Diagnosis Code Pointer": "1:2"
+            }
+        },
+        "Header": {
+            "BHT": {
+                "BHT01_Hierarchical Structure Code": "0019",
+                "BHT02_Information Source, Subscriber, Dependent": "00",
+                "BHT03_Reference Identification": "7349063984",
+                "BHT04_Date": "20180508",
+                "BHT05_Time": "0833",
+                "BHT06_Transaction Type Code": "CH"
+            },
+            "ST": {
+                "ST01_Transaction Set Identifier Code": "837",
+                "ST02_Transaction Set Control Number": "000000005",
+                "ST03_Implementation Convention Reference": "005010X222A1"
+            }
+        },
+        "Trailer": {
+            "GE": {
+                "GE01_Number of Transaction Sets Included": "5",
+                "GE02_Group Control Number": "212950697"
+            },
+            "IEA": {
+                "IEA01_Number of Included Functional Groups": "1",
+                "IEA02_Interchange Control Number": "697773230"
+            },
+            "SE": {
+                "SE01_Transaction Set Control Number": "34",
+                "SE02_Transaction Set Control Number": "000000005"
+            }
+        }
+    }
+}
